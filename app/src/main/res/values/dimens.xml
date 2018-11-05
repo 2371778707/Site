@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ht">50dp</dimen>
+    <dimen name="ts">20sp</dimen>
+    <dimen name="ts1">25sp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="ts2">16sp</dimen>
+    <dimen name="dialogwidth">260dp</dimen>
+    <dimen name="corners">5dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="mb">10dp</dimen>
+    <dimen name="mg">10dp</dimen>
+    <dimen name="ch">40dp</dimen>
+    <dimen name="m5">5dp</dimen>
+    <dimen name="drop">20dp</dimen>
+</resources>

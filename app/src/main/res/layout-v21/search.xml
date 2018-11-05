@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/free_dialog_bg"
+        android:orientation="vertical"
+        android:layout_width="@dimen/dialogwidth"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/m5"
+            android:layout_marginBottom="@dimen/m5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:popupTheme="@style/AppTheme"
+                android:background="@drawable/myedit"
+                android:textColor="@color/blue"
+                android:completionThreshold="1"
+                android:id="@+id/auto"
+                android:layout_marginRight="@dimen/m5"
+                android:layout_marginLeft="@dimen/m5"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:id="@+id/btn"
+                android:textColor="@color/white"
+                android:background="@drawable/mybtn"
+                android:text="@string/search"
+                android:layout_marginRight="@dimen/m5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
